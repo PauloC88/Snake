@@ -4,7 +4,7 @@ let scoreDisplay = document.getElementById("score");
 let score = 0;
 let snake;
 let direction = 3;
-let interval;
+let interval; 
 let milliseconds = 150;
 
 function startGame() {
