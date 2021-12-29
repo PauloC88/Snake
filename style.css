@@ -1,0 +1,66 @@
+.grid-container {
+	width: 531px;
+	background-image: url("Background.jpg");
+	display: grid;
+	grid-template-rows: repeat(21, 25px);
+	grid-template-columns: repeat(21, 25px);
+	border: 3px solid royalblue;
+}
+
+.wall {
+	width: 25px;
+	height: 25px;
+	background-color: royalblue;
+}
+
+.light-blue {
+	width: 25px;
+	height: 25px;
+	background-color: lightsteelblue;
+}
+
+.blue {
+	width: 25px;
+	height: 25px;
+	background-color: powderblue;
+}
+
+.apple {
+	background-image: url("Apple.jpg");
+}
+
+.snake {
+	background-image: url("SnakeBody.jpg");
+}
+
+.head-up {
+	background-image: url("HeadUp.jpg");
+}
+
+.head-down {
+	background-image: url("HeadDown.jpg");
+}
+
+.head-right {
+	background-image: url("HeadRight.jpg");
+}
+
+.head-left {
+	background-image: url("HeadLeft.jpg");
+}
+
+.tail-up {
+	background-image: url("TailUp.jpg");
+}
+
+.tail-down {
+	background-image: url("TailDown.jpg");
+}
+
+.tail-right {
+	background-image: url("TailRight.jpg");
+}
+
+.tail-left {
+	background-image: url("TailLeft.jpg");
+}
